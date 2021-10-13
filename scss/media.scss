@@ -1,0 +1,342 @@
+
+
+@media(max-width:1200px) {
+  .banner-block .sign-page-content h1 {
+    font-size:44px;
+  }
+
+  .fullabout{
+    padding-top: 145px;
+    padding-bottom: 145px;
+    i {
+      font-size: 55px;
+    }
+
+    .textabout {
+      h2 {
+        font-size: 25px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .firstrow .text, .secondrow .text, .thirdrow .text {
+
+    .content1 {
+      p {
+        font-size: 18px;
+      }
+
+      h1 {
+        font-size: 35px;
+      }
+    }
+
+
+    width: 80%;
+  }
+  .all {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    .headingfull {
+      font-size: 18px;
+    }
+  }
+
+  .all .people .person .texty p {
+    font-size: 20px;
+  }
+
+  .bottomsignup h2 {
+    font-size: 30px;
+  }
+
+  .bottom {
+    height: 400px;
+  }
+
+}
+
+@media(max-width:990px) {
+  .banner-block .sign-page-content h1 {
+    font-size:44px;
+  }
+.banner-block {
+  height: 700px;
+  max-height: 700px;
+}
+  .firstrow .text, .secondrow .text, .thirdrow .text {
+    width: 90%;
+
+    .content1 {
+      padding-left: 55px;
+      padding-right: 105px;
+    }
+  }
+
+  .all .people .person {
+    .imgfirst {
+      max-width: 160px;
+      min-height: 160px;
+    }
+
+    .imgsecond {
+      max-width: 160px;
+      min-height: 160px;
+    }
+    .imgthird {
+      max-width: 160px;
+      min-height: 160px;
+    }
+
+    .texty p {
+      font-size: 20px;
+      font-weight: 300;
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .menu-block .menuspan {
+    font-size: 25px;
+  }
+  .menu-block .menu {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+.menu-block .menubutton {
+  padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .menublock {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .banner-block {
+    min-height: 600px;
+    height: 100%;
+  }
+  .banner-block .h1text {
+    font-size: 20px;
+  }
+
+  .banner-block .sign-page-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+    h1 {
+      font-size: 35px;
+    }
+    .email-input{
+      width: 100%;
+      max-width: 550px;
+      height: 58px;
+    }
+
+    .signupbutton {
+      width: 100%;
+      max-width: 550px;
+      height: 50px;
+      margin-top: 10px;
+      margin-left: 0;
+    }
+    .signup {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+  }
+
+
+.fullabout {
+  padding-top: 120px;
+    padding-bottom: 120px;
+
+    .about {
+      padding-bottom: 50px;
+
+      .textabout {
+        h2 {
+          font-size: 30px;
+        }
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+}
+
+  .media {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .firstrow {
+    display: flex;
+    flex-direction: column-reverse;
+
+
+    .text {
+      width: 100%;
+    }
+
+    .imgbox1 {
+      width: 100%;
+      min-height: 450px;
+    }
+
+    .content1 {
+      padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+
+    }
+  }
+
+  .secondrow {
+    display: flex;
+    flex-direction: column-reverse;
+
+    .text {
+      width: 100%;
+    }
+    .imgbox2 {
+      width: 100%;
+      min-height: 450px;
+    }
+
+    .content1 {
+      padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+
+    }
+  }
+
+
+  .thirdrow {
+    display: flex;
+    flex-direction: column-reverse;
+
+    .text {
+      width: 100%;
+    }
+    .imgbox3 {
+      width: 100%;
+      min-height: 450px;
+    }
+
+    .content1 {
+      padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 40px;
+        padding-bottom: 60px;
+
+    }
+  }
+
+  .full .people {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+    .person {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+
+    .texty {
+      p {
+        font-size: 20px;
+      }
+    }
+    }
+  }
+
+  .full .headingfull {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .bottom {
+    .bottomup {
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .button1 {
+      width: 100%;
+      max-width: 470px;
+      height: 60px;
+      margin-top: 10px;
+      }
+    }
+  }
+  .bottomup .passwordform {
+    width: 100%;
+    max-width: 470px;
+    height: 60px;
+    margin-right: 0px;
+  }
+
+  .foot {
+    .footer {
+      flex-direction: column;
+      align-items: center;
+
+      .copyrights {
+        margin-top:10px;
+      }
+
+
+      .links {
+        text-align: center;
+        padding-left: 0;
+
+        ul {
+          display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+          li {
+            padding-left:15px;
+            padding-right:15px;
+          }
+        }
+      }
+
+      .socialicons {
+        padding-top: 20px;
+        padding-right: 0px;
+      }
+    }
+  }
+
+  .container .box {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

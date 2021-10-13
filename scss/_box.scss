@@ -1,0 +1,80 @@
+.pagebox1 {
+  min-height: 600px;
+  height: 100%;
+}
+
+.imgbox1 {
+  background-image: url("content/bg-showcase-1.jpg");
+  background-size: cover;
+  min-height: 600px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+
+}
+.firstrow, .secondrow, .thirdrow {
+  min-height: 600px;
+    display: flex;
+    justify-content: center;
+
+    .text {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+
+    .content1 {
+      padding-left: 180px;
+      padding-right: 180px;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+
+    p {
+      margin-top: 10px;
+      line-height: 27px;
+      font-size: 22px;
+      color: grey;
+      font-weight: 300;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+    }
+    }
+}
+.secondrow {
+  display: flex;
+  flex-direction: row-reverse;
+
+  .imgbox2 {
+    background-image: url("content/bg-showcase-2.jpg");
+    background-size: cover;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+}
+
+.imgbox3 {
+  background-image: url("content/bg-showcase-3.jpg");
+  background-size: cover;
+  min-height: 600px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.container.box {
+  width: 100%;
+  max-width: 2000px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}

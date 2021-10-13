@@ -1,0 +1,57 @@
+.banner-block {
+  background: url("content/bg-masthead.jpg");
+  height: 740px;
+  max-height: 740px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  
+  .sign-page-content {
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+    h1 {
+      color: white;
+      font-size: 54px;
+    }
+
+    .signup {
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+      margin-top:60px;
+    }
+
+    .email-input {
+      width: 100%;
+      max-width: 550px;
+      height: 58px;
+      font-size: 25px;
+      padding-left: 25px;
+      padding-right:25px;
+      border: none;
+      border-radius: 5px;
+      outline: 0;
+      color:#6c757d;
+    }
+
+    .signupbutton {
+      border: none;
+      border-radius: 5px;
+      background: #407bff;
+      color: white;
+      font-size: 24px;
+      margin-left: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+
+
+
+
+}

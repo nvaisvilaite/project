@@ -1,0 +1,36 @@
+.menu-block {
+  display: flex;
+  justify-content: center;
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    padding-top:11px;
+    padding-bottom:11px;
+  }
+
+  .menubutton {
+    background: #007bff;
+    color: white;
+    border-radius: 6px;
+    font-size: 19px;
+    border: none;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .menuspan {
+    font-size: 26px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+.container.menublock {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}

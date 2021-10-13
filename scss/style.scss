@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+html, body {
+  background:white;
+
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-left:60px;
+  padding-right:60px;
+}
+
+@media(max-width:1200px) {
+  .container {
+    padding-left:24px;
+    padding-right:24px;
+  }
+}
+
+@media(max-width:768px) {
+  .container {
+    padding-left:12px;
+    padding-right:12px;
+  }
+}
+
+@import "_menu.scss";
+@import "_banner.scss";
+@import "_about.scss";
+@import "_box.scss";
+@import "peopleabout.scss";
+@import "bottomsignup.scss";
+@import "footer.scss";
+@import "media.scss";

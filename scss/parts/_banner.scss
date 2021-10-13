@@ -1,0 +1,39 @@
+.banner-block {
+  background: url("content/bg-masthead.jpg");
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .signpagecontent {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+  }
+  .h1text {
+    color: white;
+    font-size: 21px;
+  }
+
+  .passwordform {
+    width: 100%;
+      max-width: 363px;
+      height: 43px;
+      font-size: 19px;
+      padding-left: 15px;
+      margin-top: 42px;
+      border: none;
+      border-radius: 5px;
+  }
+    .signupbutton {
+      width: 100%;
+        max-width: 130px;
+        height: 43px;
+        border: none;
+        border-radius: 5px;
+        background: #407bff;
+        color: white;
+        font-size: 17px;
+  }
+}
