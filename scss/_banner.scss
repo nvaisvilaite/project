@@ -6,6 +6,9 @@
   justify-content: center;
   align-items: center;
   background-size: cover;
+  position: relative;
+  top: 69px;
+  z-index: 1;
   
   .sign-page-content {
     text-align: center;
